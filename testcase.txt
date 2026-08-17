@@ -1,0 +1,32 @@
+EX11 - TEST CASE
+
+Student requirement:
+Add the fourth paragraph inside the <article> element.
+
+The FOURTH paragraph must be the luncheon/contact paragraph and must contain:
+1. A mail link using href="mailto:"
+2. The text "email us"
+3. The email address "elenor@townhall.com"
+
+Expected fourth paragraph structure:
+
+<p>
+    <b>
+        For up-to-date information on the luncheon, please
+        <a href="mailto:elenor@townhall.com?...">email us</a>.
+    </b>
+</p>
+
+TESTS AND MARKS
+
+1. index.html exists                         - 5 marks
+2. CSS file exists                           - 5 marks
+3. HTML5 DOCTYPE exists                     - 5 marks
+4. article element exists                   - 5 marks
+5. Fourth paragraph exists                  - 5 marks
+6. Fourth paragraph contains mailto link    - 10 marks
+7. Required email address exists            - 5 marks
+8. Original semantic structure retained     - 5 marks
+9. Original speaker content retained        - 5 marks
+
+TOTAL = 50 MARKS
