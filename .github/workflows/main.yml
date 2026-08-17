@@ -1,0 +1,19 @@
+name: Ex11 Autograding
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout student repository
+        uses: actions/checkout@v4
+
+      - name: Make test executable
+        run: chmod +x test.sh
+
+      - name: Run autograder
+        run: ./test.sh
