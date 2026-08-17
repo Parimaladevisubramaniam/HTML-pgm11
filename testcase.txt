@@ -1,0 +1,14 @@
+# Ex11 Test Cases
+
+1. index.html exists.
+2. styles/Ex11_addparagraph.css exists.
+3. HTML5 DOCTYPE is present.
+4. <article> element is present.
+5. The article contains the additional biography paragraph.
+6. The additional paragraph contains:
+   - "In addition to his museum and laboratory-based studies"
+   - "Zimbabwe, South Africa, and Madagascar"
+7. Header, main, section, aside, and footer remain present.
+8. Scott Sampson and the original page heading remain present.
+
+Expected score: 50/50 when all tests pass.
